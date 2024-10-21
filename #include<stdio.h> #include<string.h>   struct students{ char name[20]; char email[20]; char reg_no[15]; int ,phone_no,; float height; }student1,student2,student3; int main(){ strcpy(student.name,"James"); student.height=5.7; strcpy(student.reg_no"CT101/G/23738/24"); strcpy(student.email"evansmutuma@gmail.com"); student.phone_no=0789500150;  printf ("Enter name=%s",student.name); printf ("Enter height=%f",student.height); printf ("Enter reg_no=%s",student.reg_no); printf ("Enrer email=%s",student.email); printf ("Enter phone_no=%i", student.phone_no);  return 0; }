@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<string.h>
+
+
+struct students{
+char name[20];
+char email[20];
+char reg_no[15];
+int ,phone_no,;
+float height;
+}student1,student2,student3;
+int main(){
+strcpy(student.name,"James");
+student.height=5.7;
+strcpy(student.reg_no"CT101/G/23738/24");
+strcpy(student.email"evansmutuma@gmail.com");
+student.phone_no=0789500150;
+
+printf ("Enter name=%s",student.name);
+printf ("Enter height=%f",student.height);
+printf ("Enter reg_no=%s",student.reg_no);
+printf ("Enrer email=%s",student.email);
+printf ("Enter phone_no=%i", student.phone_no);
+
+return 0;
+}
